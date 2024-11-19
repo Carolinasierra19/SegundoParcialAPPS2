@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18.7°C"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Few clouds"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/tvMaxTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Máxima: 22.7°C"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/tvMinTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mínima: 14.0°C"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/sun"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
